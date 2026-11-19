@@ -4,10 +4,10 @@ public class FizzBuzz {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("開始値を入力してください:");
+        System.out.print("開始値を入力してください: ");
         int start = scanner.nextInt();
 
-        System.out.print("終了値を入力してください:");
+        System.out.print("終了値を入力してください: ");
         int end = scanner.nextInt();
 
         if (start > end) {
